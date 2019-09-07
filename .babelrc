@@ -1,0 +1,16 @@
+// .babelrc or babel-loader option
+// babel-plugin-import 会帮助你加载 JS 和 CSS
+{
+    "plugins": [
+      ["import", { "libraryName": "antd-mobile", "style": "css" }], // `style: true` 会加载 less 文件
+      ["module-resolver", {
+        "alias": {
+        "@": "./src",
+        "@assets": "./assets",
+        "@demos": "./src/demos",
+        "@screens": "./src/screens",
+        "@components": "./src/components"
+        }
+        }],
+    ],
+  }
