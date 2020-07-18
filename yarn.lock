@@ -1121,6 +1121,10 @@ async-limiter@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
 
+async-validator@~1.11.3:
+  version "1.11.5"
+  resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-1.11.5.tgz#9d43cf49ef6bb76be5442388d19fb9a6e47597ea"
+
 async@^2.4.0:
   version "2.6.2"
   resolved "https://registry.npm.taobao.org/async/download/async-2.6.2.tgz#18330ea7e6e313887f5d2f2a904bac6fe4dd5381"
@@ -1647,7 +1651,7 @@ cosmiconfig@^5.0.5:
     js-yaml "^3.13.0"
     parse-json "^4.0.0"
 
-create-react-class@^15.6.0, create-react-class@^15.6.3:
+create-react-class@^15.5.3, create-react-class@^15.6.0, create-react-class@^15.6.3:
   version "15.6.3"
   resolved "https://registry.npm.taobao.org/create-react-class/download/create-react-class-15.6.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcreate-react-class%2Fdownload%2Fcreate-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
@@ -1809,6 +1813,10 @@ diff-sequences@^24.3.0:
 dom-align@1.x, dom-align@^1.7.0:
   version "1.8.2"
   resolved "https://registry.npm.taobao.org/dom-align/download/dom-align-1.8.2.tgz#fdcd36bce25ba8d34fe3582efd57ac767df490bd"
+
+dom-scroll-into-view@1.x:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/dom-scroll-into-view/-/dom-scroll-into-view-1.2.1.tgz#e8f36732dd089b0201a88d7815dc3f88e6d66c7e"
 
 dom-walk@^0.1.0:
   version "0.1.1"
@@ -3502,9 +3510,9 @@ lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
 
-lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.6.1, lodash@~4.17.10:
-  version "4.17.11"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.6.1, lodash@~4.17.10:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
@@ -4749,6 +4757,19 @@ rc-collapse@~1.9.1:
     prop-types "^15.5.6"
     rc-animate "2.x"
 
+rc-form@^2.4.5:
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/rc-form/-/rc-form-2.4.11.tgz#61ee3ae579259684ae30f2c48f55f0f23a5d3d08"
+  dependencies:
+    async-validator "~1.11.3"
+    babel-runtime "6.x"
+    create-react-class "^15.5.3"
+    dom-scroll-into-view "1.x"
+    hoist-non-react-statics "^3.3.0"
+    lodash "^4.17.4"
+    rc-util "^4.15.3"
+    warning "^4.0.3"
+
 rc-gesture@~0.0.18, rc-gesture@~0.0.22:
   version "0.0.22"
   resolved "https://registry.npm.taobao.org/rc-gesture/download/rc-gesture-0.0.22.tgz#fbcbdd5b46387a978b3ede48b42748e8ff77dddd"
@@ -4804,6 +4825,16 @@ rc-util@4.x, rc-util@^4.0.4, rc-util@^4.4.0:
     prop-types "^15.5.10"
     shallowequal "^0.2.2"
 
+rc-util@^4.15.3:
+  version "4.21.1"
+  resolved "https://registry.yarnpkg.com/rc-util/-/rc-util-4.21.1.tgz#88602d0c3185020aa1053d9a1e70eac161becb05"
+  dependencies:
+    add-dom-event-listener "^1.1.0"
+    prop-types "^15.5.10"
+    react-is "^16.12.0"
+    react-lifecycles-compat "^3.0.4"
+    shallowequal "^1.1.0"
+
 rc@^1.2.7:
   version "1.2.8"
   resolved "https://registry.npm.taobao.org/rc/download/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
@@ -4827,6 +4858,10 @@ react-devtools-core@^3.6.0:
   dependencies:
     shell-quote "^1.6.1"
     ws "^3.3.1"
+
+react-is@^16.12.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
 
 react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4, react-is@^16.8.6:
   version "16.8.6"
@@ -5641,7 +5676,7 @@ shallowequal@^0.2.2:
   dependencies:
     lodash.keys "^3.1.2"
 
-shallowequal@^1.0.1:
+shallowequal@^1.0.1, shallowequal@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
 
@@ -6254,6 +6289,12 @@ walker@^1.0.7, walker@~1.0.5:
 warning@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/warning/download/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  dependencies:
+    loose-envify "^1.0.0"
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
   dependencies:
     loose-envify "^1.0.0"
 
