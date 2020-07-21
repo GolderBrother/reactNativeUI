@@ -11,11 +11,11 @@
 
 [点击这里查看 Demo 展示](https://user-gold-cdn.xitu.io/2018/2/28/161d877eb7987d89?imageslim)
 
-> update 2018-04-25：由于现在 RN 及其相关插件更新频繁，如果出于学习的目的，安装依赖时最好按照 `package.json` 中指定的 package 版本进行安装，熟悉 RN 开发流程后再升级版本。
+> update 2019-10-25：由于现在 RN 及其相关插件更新频繁，如果出于学习的目的，安装依赖时最好按照 `package.json` 中指定的 package 版本进行安装，熟悉 RN 开发流程后再升级版本。
 
 ## 开发环境及工具
 
-* 基于 RN 0.49；
+* 基于 RN 0.59.8；
 * macOS High Sierra 10.13.3；Xcode 9.2；Android Studio 3.0.1；
 * 安卓（4.3 及以上）/ iOS（8 及以上） 已测试。
 
